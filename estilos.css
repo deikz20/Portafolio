@@ -1,4 +1,5 @@
 ul {
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,12 +13,12 @@ ul {
   
   li a {
     font-size: 17px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
   }
   
   /* Change the link color to #111 (black) on hover */
@@ -26,7 +27,6 @@ ul {
     background-color: #FFBA63;
   }
   img{
-    margin-left:550px;
     width: 750px;
     height: 540px;
   }
@@ -42,4 +42,57 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+  .caja{
+    display:grid;
+    grid-template-areas: "nav nav"
+                          "contenido contenido2"
+                          "footer footer";
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto auto auto;
+  }
+  .nav{
+    grid-area: nav;
+   
+  }
+  .contenido{
+    margin-top: 50%;
+    grid-area: contenido;
+  }
+  .contenido2{
+    grid-area: contenido2;
+  }
+  .contenido2:hover{
+    grid-area: contenido2;
+    opacity: 20%;
+  }
+  .footer{
+    grid-area: footer;
+  }
+  .texto{
+    margin-top: 25%;
+  }
+  .texto H1{
+    margin-bottom: 2px;
+    color: #111;
+    font-size: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .texto H2:hover{
+    color:#333;
+   
+  }
+  .texto h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color:#FFBA63;
+    font-size: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .texto h3{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color:#333;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
   }
