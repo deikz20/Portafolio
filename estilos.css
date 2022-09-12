@@ -10,13 +10,6 @@ ul {
   li {
     float: right;
   }
-  .logo{
-    padding: 10px 10px;
-    float: left;
-    font-size: 30px;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  
   li a {
 
     font-size: 25px;
@@ -38,7 +31,7 @@ ul {
     margin-top: 50px;
     width: 750px;
     height: 540px;
-    opacity: 80%;
+    opacity: 90%;
   }
   footer{
     background-color: #333;
@@ -101,3 +94,9 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
     font-size: 50px;
     font-family: 'Roboto Condensed', sans-serif;
   }
+.logo img{
+  width: 50px;
+  height: 50px;
+  margin-right: 1000px;
+  margin-top: 9px;
+}
